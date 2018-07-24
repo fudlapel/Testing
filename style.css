@@ -55,14 +55,108 @@ section h2:after {
   height: 1px;
   background-color: #f39c12;
   left: 50%;
-  margin-left: -30px;
+  margin-lefteft: -30px;
 }
 
 /* Header defaults */
 header {
   background-color: rgba(37, 37, 37, 0.8);
+  display: flex;
+  position: fixed;
+  flex-flow: row;
+  flex: 1 100%;
+  width: 90%;
+  height: 20%;
+  border-radius: 5px 0 5px 0;
 }
 
+.nav-item {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1 0 0;
+  
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1 0 0;
+  height: 80%; 
+
+}
+
+.logo {
+  height: 80%;  
+}
+
+.logo img {
+  height: 50%;
+  flex: 2 0 0;
+}
+#about {
+  justify-content: space-around;
+  align-self: flex-end;
+}
+
+#about div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+
+#about h2 {
+  text-align: center;
+  /*justify-content: flex-start;
+  align-items: center;*/
+}
+                                                                                      
+#aboutmockup {
+  display: flex;
+  flex:1 0 0;
+  align-self: flex-end;
+}
+
+#about p {
+  display: flex;
+  flex: 1.5 0 0;
+  justify-content: space-around; 
+}
+
+.staff-profile {
+  flex: 1 33%;
+  justify-content: space-between;
+  padding: 1%;
+  text-align: center;
+}
+
+#staff > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: center;
+  margin: 10%;
+
+}
+
+.staff-profile h3 {
+  font-size: 30px; 
+}
+
+.staff-profile i {
+ font-size: 40px; 
+}
+
+/*#staff {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-content: center;  
+}*/
 /* 
  * YOUR CSS:
  */
